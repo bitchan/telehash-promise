@@ -22,7 +22,8 @@
   "homepage": "https://github.com/nekogrid/telehash-promise",
   "dependencies": {
     "es6-promise": "^2.0.0",
-    "telehash-js": "^0.1.41"
+    "object-assign": "^1.0.0",
+    "telehash": "^0.3.18"
   },
   "devDependencies": {
     "chai": "*",
