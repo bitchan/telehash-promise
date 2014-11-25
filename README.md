@@ -13,6 +13,7 @@ require("object.assign").shim();
 
 ```js
 var th = require("telehash-promise");
+// denodeify is also available as th.denodeify
 
 th.generate()
   .then(function(endpoint) {
@@ -28,8 +29,6 @@ th.mesh({id})
     // Process error.
   });
 ```
-
-`denodeify` is also reexported as `th.denodeify`.
 
 ## License
 
