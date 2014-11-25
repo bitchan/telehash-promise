@@ -20,14 +20,17 @@
     "url": "https://github.com/nekogrid/telehash-promise/issues"
   },
   "homepage": "https://github.com/nekogrid/telehash-promise",
-  "dependencies": {
-    "es6-promise": "^2.0.0",
-    "object-assign": "^1.0.0",
-    "telehash": "^0.3.18"
+  "peerDependencies": {
+    "denodeify": "^1.2.0",
+    "telehash": "^0.3.19"
   },
   "devDependencies": {
     "chai": "*",
+    "denodeify": "^1.2.0",
+    "es6-promise": "^2.0.0",
     "jshint": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "object.assign": "^1.0.1",
+    "telehash": "^0.3.19"
   }
 }

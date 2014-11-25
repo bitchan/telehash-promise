@@ -1,5 +1,7 @@
 var expect = require("chai").expect;
 
+require("es6-promise").polyfill();
+require("object.assign").shim();
 var th = require("./");
 th.log({info: function(){}});
 
