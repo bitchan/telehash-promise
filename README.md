@@ -4,6 +4,13 @@ Promise wrapper for [telehash-js](https://github.com/telehash/telehash-js). Make
 
 ## Usage
 
+You need ES6 `Promise` and `Object.assign` functions available in order to use this module. Use some ES6 runtime or just apply polyfills:
+
+```js
+require("es6-promise").polyfill();
+require("object.assign").shim();
+```
+
 ```js
 var th = require("telehash-promise");
 
