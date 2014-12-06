@@ -27,10 +27,12 @@
   "devDependencies": {
     "chai": "*",
     "denodeify": "^1.2.0",
-    "es6-promise": "^2.0.0",
     "jshint": "*",
     "mocha": "*",
-    "object.assign": "^1.0.1",
     "telehash": "^0.3.19"
+  },
+  "dependencies": {
+    "es6-promise": "^2.0.0",
+    "object.assign": "^1.0.3"
   }
 }

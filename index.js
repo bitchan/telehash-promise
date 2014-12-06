@@ -1,5 +1,8 @@
 "use strict";
 
+require("es6-promise").polyfill();
+require("object.assign").shim();
+
 var denodeify = require("denodeify");
 var th = require("telehash");
 
