@@ -1,5 +1,7 @@
 # telehash-promise [![Build Status](https://travis-ci.org/bitchan/telehash-promise.svg?branch=master)](https://travis-ci.org/bitchan/telehash-promise)
 
+**This repo is stub and isn't doing anything interesting at the moment.**
+
 Promise wrapper for [telehash-js](https://github.com/telehash/telehash-js). Make all public telehash methods which normally require node-style callback return an ES6-compatible promise instead. Both `telehash` and `denodeify` are peer dependencies.
 
 ## Usage
